@@ -5,38 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema3_EquiposNBA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1000">
     <StackPanel>
-        <StackPanel>
-            <StackPanel.Background>
-                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
-                    <GradientStop Color="Black" Offset="0" />
-                    <GradientStop Color="#FFC95AFF" Offset="0.484" />
-                    <GradientStop Color="#FF3E5E7F" Offset="0.242" />
+        <Border Margin="10, 12">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5, 0">
+                    <GradientStop Color="#FF905BEC" Offset="0.2" />
+                    <GradientStop Color="#FFF0DC46" Offset="0.8" />
+                    <GradientStop Color="#FFC4A192" Offset="0.52" />
                 </LinearGradientBrush>
-            </StackPanel.Background>
+            </Border.Background>
             <StackPanel>
-                
+
+                <TextBlock></TextBlock>
+                <WrapPanel HorizontalAlignment="Center">
+                    <Image Source="9_lakers.png" Width="210" ></Image>
+                    <Image Source="9_lakers.png" Width="210" Height="210"></Image>
+                    <Image Source="9_lakers.png" Width="210" Height="210"></Image>
+                    <Image Source="9_lakers.png" Width="210" Height="210"></Image>
+                    <Image Source="9_lakers.png" Width="210" Height="210"></Image>
+                </WrapPanel>
             </StackPanel>
-            <WrapPanel>
-                <Image Source="3_lakers.png" Width="150" Height="150"></Image>
-                <Image Source="9_lakers.png" Width="150" Height="150"></Image>
-                <Image></Image>
-                <Image></Image>
-                <Image></Image>
-            </WrapPanel>
-        </StackPanel>
-        <StackPanel>
+        </Border>
+
+        <Border Margin="10, 12">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5, 0">
+                    <GradientStop Color="Black" Offset="0" />
+                    <GradientStop Color="#FF7F0606" Offset="0.4" />
+                    <GradientStop Color="#FFEE0B0B" Offset="0.9" />
+                </LinearGradientBrush>
+            </Border.Background>
             <StackPanel>
-                
+
+                <TextBlock></TextBlock>
+                <WrapPanel HorizontalAlignment="Center">
+                    <Image Source="7_heat.png" Width="150" Height="150" Margin="0,0,0,-40"></Image>
+                    <Image Source="7_heat.png" Width="150" ></Image>
+                    <Image Source="7_heat.png" Width="150" Height="150"></Image>
+                    <Image Source="7_heat.png" Width="150" Height="150"></Image>
+                    <Image Source="7_heat.png" Width="150" Height="150"></Image>
+                </WrapPanel>
             </StackPanel>
-            <WrapPanel>
-                <Image></Image>
-                <Image></Image>
-                <Image></Image>
-                <Image></Image>
-                <Image></Image>
-            </WrapPanel>
-        </StackPanel>
+        </Border>
     </StackPanel>
 </Window>
